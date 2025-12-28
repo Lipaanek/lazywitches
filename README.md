@@ -66,6 +66,7 @@ Modifiers:
 
 - `:optional()`: Makes the field optional
 - `:default(value)`: Sets default value for optional fields
+- `:enableDefaultIfOptional(boolean)`: Decides if to apply default value if optional field is nil
 
 ### Structs
 
