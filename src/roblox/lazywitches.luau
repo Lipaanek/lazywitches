@@ -1,5 +1,5 @@
 local lazywitches = {}
-lazywitches.defaultIfOptional = false
+lazywitches.defaultIfOptional = true
 
 local Types = require(script.Parent.Parent.Types)
 

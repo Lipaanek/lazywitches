@@ -1,5 +1,5 @@
 local lazywitches = {}
-lazywitches.defaultIfOptional = false
+lazywitches.defaultIfOptional = true
 
 local util = require("../helperUtils")
 local Types = require("../Types")
