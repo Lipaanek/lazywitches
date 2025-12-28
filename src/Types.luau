@@ -21,10 +21,10 @@ export type LWDefault = {
     parse: (self: any, value: any, path: string) -> (any)
 }
 
-export type optional = {
+export type map = {
     kind: string,
-    field: LWDefault,
-    parse: (self: any, value: any, path: string) -> (any)
+    key: LWDefault,
+    value: struct | LWDefault
 }
 
 return Types
