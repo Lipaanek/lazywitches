@@ -61,6 +61,8 @@ print(person.isActive) -- true
 - `lazywitches.number`: For numbers
 - `lazywitches.string`: For strings
 - `lazywitches.boolean`: For booleans
+- `lazywitches.any`: For any value
+- `lazywitches.instance`: For instances (ROBLOX ONLY!)
 
 Modifiers:
 
@@ -75,6 +77,10 @@ Modifiers:
 ### Lists
 
 `lazywitches.list(element)`: Creates a list schema with the given element type.
+
+### Maps
+
+`lazywitches.map(key, value)`: Creates a new map of Map<key, value>. It's used for repeated elements like for example list of buildings and their properties.
 
 ### Deserialization
 
